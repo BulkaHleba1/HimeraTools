@@ -4,7 +4,7 @@
 1.1) **ВНИМАНИЕ, ЭТО ДЛЯ ЛИНУКСА, с FISH** -- делаем файлы исполнимыми. chmod +x ~/Prog/notes.py ~/Prog/project_manager.py ~/Prog/convert.py ~/Prog/expenses.py ~/Prog/tools.py
 1.2) **УБЕДИТЕСЬ, ЧТО У ВАС ЕСТЬ ~/local/bin В PATH** командами: echo $PATH | tr ' ' '\n' | grep -F '/.local/bin'
 1.3) **ЕСЛИ У ВАС НЕТУ ~/.local/bin в патче**, то команда: fish_add_path ~/.local/bin 
-1.3) Дальше, создаём симлинки
+1.4) Дальше, создаём симлинки
   ln -s ~/Дирректория/К/notes.py ~/.local/bin/notes
   ln -s ~/Директория/К/project_manager.py ~/.local/bin/projects
   ln -s ~/Директория/К/convert.py ~/.local/bin/convert
